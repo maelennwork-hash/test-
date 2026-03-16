@@ -42,6 +42,7 @@ model User {
   updatedAt    DateTime @updatedAt
 
   contacts      Contact[]
+  tags          Tag[]
   leads         Lead[]
   interactions  Interaction[]
   activities    Activity[]
